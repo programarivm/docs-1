@@ -39,17 +39,17 @@ Console installation can be performed using the native system or with [Composer]
 <a name="console-install-quick"></a>
 ### Quick start install
 
-Get the latest copy of October:
+Run this in your terminal to get the latest copy of the October CMS installer:
 
     curl -s https://octobercms.com/api/installer --output installer.php
 
-Then run:
+Or if you don't have curl:
+
+    wget -O installer.php https://octobercms.com/api/installer
+
+Finally run:
 
     php installer.php
-
-Alternatively if you don't have curl:
-
-    php -r "eval('?>'.file_get_contents('https://octobercms.com/api/installer'));"
 
 <a name="console-install-composer"></a>
 ### Composer install
